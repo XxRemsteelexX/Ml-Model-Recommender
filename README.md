@@ -49,6 +49,5 @@ PROBLEM_TYPE = None   # let it auto-infer or set 'classification'/'regression'
 - for excel files, set `CSV_PATH` to something like `/path/file.xlsx`; the loader will use `read_excel`
 - generated figures go to `figs/` and reports to `reports/` (both ignored by git)
 
-## license
-choose a license (e.g., mit) before publishing widely.
+
 
