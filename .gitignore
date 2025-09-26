@@ -1,0 +1,35 @@
+# data files - don't commit raw datasets
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# generated outputs
+figs/
+reports/
+Model_Chooser_Report.*
+*.html
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# conda/virtual environments
+ML_selection_ENV/
+venv/
+.env
+
+# ide files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os files
+.DS_Store
+Thumbs.db
