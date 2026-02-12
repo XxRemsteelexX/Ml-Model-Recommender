@@ -30,6 +30,13 @@ venv/
 *.swp
 *.swo
 
+# logs
+*.log
+
+# saved models
+*.pkl
+*.joblib
+
 # os files
 .DS_Store
 Thumbs.db
